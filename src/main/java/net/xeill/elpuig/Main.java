@@ -6,15 +6,14 @@ import javax.xml.xquery.XQResultSequence;
 
 public class Main {
     public static void main(String[] args) throws XQException {
-
         Menu menu = new Menu();
+        QueryController queryController = new QueryController();
+
         int option = menu.mainMenu();
         while (option > 0 && option < 4) {
             switch (option) {
                 case 1:
-                    ExistController ec = new ExistController();
-                    XQResultSequence xqrs = ec.executeQuery("for $weapon in /doc('/db/foaf/foaf/weapons.xml') return $weapon/@name");
-                    ec.printResultSequence(xqrs);
+                   queryController.listar();
                     break;
 
                 case 2:
