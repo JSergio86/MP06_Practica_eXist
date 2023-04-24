@@ -21,9 +21,11 @@ public class Main {
                     break;
 
                 case 3:
+                    queryController.seleccionarConcreto();
                     break;
 
                 case 4:
+                    queryController.modificarRegistro();
                     break;
 
                 case 5:
@@ -31,6 +33,7 @@ public class Main {
                     break;
 
                 case 6:
+                    queryController.eliminarConjunto();
                     break;
 
                 case 7:
@@ -40,6 +43,7 @@ public class Main {
                 default:
                     System.out.println("Introdueixi una de les opcions anteriors");
                     break;
+
 
             }
             option = menu.mainMenu();

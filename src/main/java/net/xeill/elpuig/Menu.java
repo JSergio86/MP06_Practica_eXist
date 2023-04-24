@@ -15,8 +15,8 @@ public class Menu {
         do {
             System.out.println(" \nMENU PRINCIPAL \n");
             System.out.println("1. Listar elementos con un texto concreto");
-            System.out.println("2. Listar elementos concretos");
-            System.out.println("3. Listar con condición");
+            System.out.println("2. Listar con condición");
+            System.out.println("3. Listar elementos concretos");
             System.out.println("4. Modificar registro");
             System.out.println("5. Eliminar un registro");
             System.out.println("6. Eliminar un conjunto");
