@@ -10,13 +10,14 @@ public class Main {
         QueryController queryController = new QueryController();
 
         int option = menu.mainMenu();
-        while (option > 0 && option < 4) {
+        while (option > 0 && option < 8) {
             switch (option) {
                 case 1:
-                   queryController.listar();
+                   queryController.seleccionarTextoConcreto();
                     break;
 
                 case 2:
+                    queryController.seleccionarConCondicion();
                     break;
 
                 case 3:
@@ -26,6 +27,7 @@ public class Main {
                     break;
 
                 case 5:
+                    queryController.eliminarRegistro();
                     break;
 
                 case 6:
