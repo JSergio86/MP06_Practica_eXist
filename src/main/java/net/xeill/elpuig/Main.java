@@ -1,6 +1,5 @@
 package net.xeill.elpuig;
 
-
 import javax.xml.xquery.XQException;
 import javax.xml.xquery.XQResultSequence;
 
@@ -10,7 +9,7 @@ public class Main {
         QueryController queryController = new QueryController();
 
         int option = menu.mainMenu();
-        while (option > 0 && option < 8) {
+        while (option > 0 && option < 7) {
             switch (option) {
                 case 1:
                    queryController.seleccionarTextoConcreto();

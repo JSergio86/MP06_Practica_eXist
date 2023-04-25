@@ -68,9 +68,9 @@
     </group>
 
     <group name="Other">
-        <weapon id="14" name="Flowers" />
-        <weapon id="10" name="Long dildo" />
-        <weapon id="11" name="Short dildo" />
-        <weapon id="12" name="Vibrator" />
+        <weapon id="14" name="Merciro" />
+        <weapon id="10" name="Odin" />
+        <weapon id="11" name="Cupid" />
+        <weapon id="12" name="Thanos" />
     </group>
 </catalog>
